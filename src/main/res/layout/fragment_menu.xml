@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Москва"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="bottom"
+            android:textColor="#222831"
+            android:textSize="16sp"
+            android:background="?selectableItemBackgroundBorderless"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:drawableRightCompat="@drawable/ic_arrow"
+            android:drawablePadding="16dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:srcCompat="@drawable/ic_qr_code"
+            android:background="?selectableItemBackgroundBorderless"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".presentation.MenuFragment">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:elevation="16dp"
+            android:background="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_marginStart="16dp"
+                app:layout_scrollFlags="scroll|snap"
+                android:layout_height="100dp">
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingEnd="16dp"
+                        android:orientation="horizontal">
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/default_round_bg"
+                            android:scaleType="centerCrop"
+                            app:shapeAppearanceOverlay="@style/roundedImageView"
+                            android:layout_marginEnd="16dp"
+                            android:elevation="8dp"
+                            app:srcCompat="@drawable/ad1" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/default_round_bg"
+                            android:scaleType="centerCrop"
+                            android:layout_marginEnd="16dp"
+                            app:shapeAppearanceOverlay="@style/roundedImageView"
+                            app:srcCompat="@drawable/ad1" />
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="300dp"
+                            android:layout_height="100dp"
+                            android:background="@drawable/default_round_bg"
+                            android:scaleType="centerCrop"
+                            app:shapeAppearanceOverlay="@style/roundedImageView"
+                            app:srcCompat="@drawable/ad1" />
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_marginStart="16dp"
+                android:layout_height="60dp">
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"
+                        android:paddingEnd="8dp"
+                        android:clipToPadding="false"
+                        android:layout_gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_height="32dp"
+                            android:layout_width="88dp"
+                            android:text="Пицца"
+                            android:textColor="#FD3A69"
+                            android:elevation="10dp"
+                            android:textSize="13sp"
+                            android:layout_marginEnd="8dp"
+                            android:stateListAnimator="@null"
+                            android:background="@drawable/selected_button_bg"/>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_height="32dp"
+                            android:layout_width="88dp"
+                            android:text="Комбо"
+                            android:textColor="#C3C4C9"
+                            android:layout_marginEnd="8dp"
+                            android:textSize="13sp"
+                            android:elevation="10dp"
+                            android:stateListAnimator="@null"
+                            android:background="@drawable/button_bg"/>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_height="32dp"
+                            android:layout_width="88dp"
+                            android:text="Десерты"
+                            android:textColor="#C3C4C9"
+                            android:layout_marginEnd="8dp"
+                            android:textSize="13sp"
+                            android:elevation="10dp"
+                            android:stateListAnimator="@null"
+                            android:background="@drawable/button_bg"/>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_height="32dp"
+                            android:layout_width="88dp"
+                            android:text="Напитки"
+                            android:textColor="#C3C4C9"
+                            android:textSize="13sp"
+                            android:layout_marginEnd="8dp"
+                            android:elevation="10dp"
+                            android:stateListAnimator="@null"
+                            android:background="@drawable/button_bg"/>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_height="32dp"
+                            android:layout_width="88dp"
+                            android:text="Пицца"
+                            android:textColor="#C3C4C9"
+                            android:textSize="13sp"
+                            android:layout_marginEnd="8dp"
+                            android:elevation="10dp"
+                            android:stateListAnimator="@null"
+                            android:background="@drawable/button_bg"/>
+
+                    </LinearLayout>
+
+                </ScrollView>
+            </HorizontalScrollView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#F3F5F9" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/pizzasList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

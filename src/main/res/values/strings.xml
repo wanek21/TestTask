@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TestTask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nav_menu_title">Menu</string>
+    <string name="nav_profile_title">Profile</string>
+    <string name="nav_cart_title">Cart</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer libero est, tristique quis mauris laoreet, rhoncus aliquet tortor. Vestibulum feugiat urna vitae porta molestie. Aliquam vel sapien purus. Curabitur ut tincidunt purus. Donec laoreet consequat libero vitae feugiat. Sed rutrum volutpat ligula, congue faucibus quam dictum at. Nullam molestie congue ligula, nec tristique sem pellentesque ut. Mauris turpis sem, semper ac lobortis in, fermentum sit amet ex. Curabitur quam mi, imperdiet mollis nisl quis, congue posuere erat. Nulla elementum, diam nec pharetra elementum, enim orci accumsan ex, nec gravida augue tellus ac sem. Nulla vitae sapien eget ipsum pulvinar facilisis id eu elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque sodales tempus nunc mollis finibus. Fusce suscipit eros ut est scelerisque pulvinar. Ut id tristique odio, aliquet venenatis nisl. Proin ipsum tellus, imperdiet ac pellentesque vitae, iaculis a justo.
+
+Proin nec ornare ipsum, non consequat purus. Aenean consectetur ipsum id arcu semper sollicitudin. Vestibulum a nisi sit amet ipsum consequat dictum. Fusce lectus elit, ullamcorper at maximus sit amet, iaculis nec nunc. Etiam ipsum ex, porta in risus vel, placerat pulvinar neque. Sed dui nisl, auctor tincidunt maximus tincidunt, volutpat ac arcu. Cras rutrum non metus in fringilla. Pellentesque eget leo non mauris dictum mollis.
+
+Aliquam in massa vel justo ullamcorper mattis. Nulla aliquam orci a erat fermentum, ut consectetur felis sagittis. Nunc felis mauris, aliquet a ante in, egestas facilisis lectus. Donec quis neque eget velit dignissim ullamcorper id quis est. Vivamus et libero magna. Sed ipsum arcu, finibus a massa in, convallis accumsan diam. Nullam tempor neque lacus, semper scelerisque nulla fermentum vitae. Duis et vehicula metus.
+
+Mauris mattis volutpat metus. Maecenas in diam ut urna feugiat vestibulum. Morbi dictum leo velit, quis faucibus nunc iaculis vulputate. Nunc egestas gravida ante nec cursus. Nam hendrerit sem eu est fringilla tristique. Mauris fermentum diam non venenatis tincidunt. Phasellus porttitor viverra congue. Mauris facilisis consectetur nisl, vel maximus odio consequat congue. Donec eleifend ultricies efficitur. Nullam malesuada, ligula a sodales dictum, ex tellus aliquet ex, vel vehicula quam justo nec magna. Sed quis urna purus. Suspendisse bibendum sem vitae eleifend commodo. Aenean tempus, mauris at finibus dignissim, metus quam luctus augue, eget suscipit dolor neque at ligula.
+
+Ut nec ante eget est consequat tempus ac et felis. Praesent blandit orci at facilisis volutpat. Nullam pellentesque ante eu ligula hendrerit placerat. Pellentesque sed magna purus. Quisque eget congue tortor, at semper odio. Mauris mattis efficitur mauris, eu ornare ipsum. Nullam vel interdum eros. Fusce eu laoreet mi. Fusce quis laoreet lacus. Nullam faucibus risus sit amet egestas scelerisque.</string>
+</resources>

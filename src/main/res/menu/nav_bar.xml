@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuFragment"
+        android:title="@string/nav_menu_title"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu"/>
+    <item android:id="@+id/profileFragment"
+        android:title="@string/nav_profile_title"
+        android:icon="@drawable/ic_profile"/>
+    <item android:id="@+id/cartFragment"
+        android:title="@string/nav_cart_title"
+        android:icon="@drawable/ic_cart"/>
+</menu>
